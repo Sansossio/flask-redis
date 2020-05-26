@@ -2,7 +2,7 @@
 Playing with python flask
 
 ## Run
-Install: ```pip install -r requirements.txt```
+Install: ```pip install -r requirements.txt```<br>
 Redis: ```docker-compose up redis```<br>
 Manual: ```python src/main.py```<br>
 VsCode: <em>just press F5</em><hr>

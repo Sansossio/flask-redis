@@ -4,10 +4,6 @@ from services import get_value, set_value
 
 app = Flask(__name__)
 
-@app.route('/')
-def hello_world():
-    return 'Hello world!'
-
 @app.route('/set')
 def set():
   key = request.args.get('key')
